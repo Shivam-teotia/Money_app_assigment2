@@ -1,0 +1,15 @@
+.icon-main-div{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.title{
+    word-break: break-all;
+}
+.icon{
+    margin-top: 4px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.input{
+    border: none;
+}

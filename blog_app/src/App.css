@@ -1,0 +1,39 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  background: rgb(157, 154, 228);
+}
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-family:sans-serif ;
+}
+.link:hover{
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.button-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(157, 154, 228);
+}
+.body-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 7px 7px;
+  gap: 5px;
+}
+.each-div{
+  background-color: rgb(215, 214, 245);
+  border-radius: 10px;
+  padding: 7px 7px;
+  max-width: 44vw;
+  word-wrap: break-word;
+}
